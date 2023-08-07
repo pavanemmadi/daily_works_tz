@@ -1,0 +1,31 @@
+
+public class Emplyee {
+  int empno   ;
+  String name ;
+  float sal ; 
+  void getDetails() {
+	  System.out.println(empno  + name +sal);
+  }
+}
+  
+
+class Object {
+	  
+  
+ public static void main (String[]args) {
+	   Emplyee pavan =new Emplyee();
+	     System.out.println(pavan.empno + "|" +pavan.name + "|" +pavan.sal );
+	     
+	     
+	     pavan.getDetails();
+	     pavan.name ="kumar";
+	     pavan.sal = 5577f;
+	     
+	     pavan.getDetails ();
+	     
+ }
+    
+}
+
+}
+}

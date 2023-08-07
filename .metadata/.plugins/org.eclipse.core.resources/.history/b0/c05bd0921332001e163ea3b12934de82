@@ -1,0 +1,10 @@
+package com.techzenture.java.pack1;
+
+public class PackTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

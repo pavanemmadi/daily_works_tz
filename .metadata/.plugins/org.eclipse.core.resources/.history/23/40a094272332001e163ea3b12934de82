@@ -1,0 +1,10 @@
+package com.tech.java.arrays;
+
+public class MarksClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

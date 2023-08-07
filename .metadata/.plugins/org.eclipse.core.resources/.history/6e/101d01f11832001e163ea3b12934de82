@@ -1,0 +1,18 @@
+package com.tech.java.array;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int[] marks = {87,98,78,23,45,90};
+		System.out.println(marks);
+		System.out.println(" number of sub:" +marks.length);
+		// ...array iteration using loop
+		for (int i=0; i<=marks.length;i++) {
+  System.out.println("marks for subject-" +(i+1)  +  " = "  +   marks[i] );
+        // enhanced for loop
+      for (int mark =marks) {
+    	  System.out.println(mars   + "  |  ");
+      }
+	}
+
+	}}

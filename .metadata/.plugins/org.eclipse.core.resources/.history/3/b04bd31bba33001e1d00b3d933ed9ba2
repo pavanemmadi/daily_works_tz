@@ -1,0 +1,44 @@
+
+public class Emplyee {
+  int empno   ;
+  String name ;
+  float sal ; 
+  Emplyee(){}
+  Emplyee(int empno,String name){
+	  
+ this. empno =empno;
+ this. name =name;
+  
+}
+
+  void getDetails() {
+	  System.out.println(this.empno + "|" + name +"|" +sal);
+	  
+  }
+ 
+ public static void main (String[]args) {
+	   Emplyee pavan1 =new Emplyee();
+
+	     Emplyee pavan2 =new Emplyee(10,"lol");
+	     Emplyee pavan3 =new Emplyee(88,"jjj");
+	     
+	     pavan1.getDetails();
+	     pavan2.getDetails();
+	     pavan3.getDetails();
+	     
+	    
+	     
+	     
+	     
+ 
+  
+}
+    
+}
+  
+
+
+  
+ 
+
+

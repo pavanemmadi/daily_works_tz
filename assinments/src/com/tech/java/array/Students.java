@@ -1,0 +1,18 @@
+package com.tech.java.array;
+
+public class Students {
+	private int id ;
+	private String name ;
+	private String collegeName ;
+	public Students(int id, String name, String collegeName) {
+	
+		this.id = id;
+		this.name = name;
+		this.collegeName = collegeName;
+		
+	}
+	public void   () 
+	}
+	
+
+}

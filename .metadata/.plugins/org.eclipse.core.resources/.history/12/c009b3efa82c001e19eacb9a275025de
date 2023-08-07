@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class BroMovieBill {
+
+	public static void main(String[] args) {
+	 Scanner sc = new Scanner(systerm.in);
+	 
+	 system.out.print("how many number of pizzas:  ");
+	 int pizza = sc.nextInt();
+
+	}
+
+}

@@ -1,0 +1,42 @@
+
+public class Emplyee {
+  int empno   ;
+  String name ;
+  float sal ; 
+  Emplyee(){
+	  System.out.println(" *******");
+  empno =101;
+  name ="nani";
+  sal = 2760.55f;
+  }
+
+  void getDetails() {
+	  System.out.println(empno + "|" + name +"|" +sal);
+	  
+  }
+ 
+ public static void main (String[]args) {
+	   Emplyee pavan1 =new Emplyee();
+	     System.out.println(pavan1.empno + "|" +pavan1.name + "|" +pavan1.sal );
+	     Emplyee pavan2 =new Emplyee();
+	     Emplyee pavan3 =new Emplyee();
+	     
+	     pavan1.getDetails();
+	     pavan2.getDetails();
+	     pavan3.getDetails();
+	     
+	    
+	     
+	     
+	     
+ 
+  
+}
+    
+  
+
+}
+  
+ 
+
+

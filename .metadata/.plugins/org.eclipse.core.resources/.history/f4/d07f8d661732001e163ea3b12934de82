@@ -1,0 +1,12 @@
+package com.tech.java.array;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int[] marks = {87,98,78,23,45,90};
+		System.out.println(marks);
+		System.out.println(" number of sub:" +marks.length);
+
+	}
+
+}

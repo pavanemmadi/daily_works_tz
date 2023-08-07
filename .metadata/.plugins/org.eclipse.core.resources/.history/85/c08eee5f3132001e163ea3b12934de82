@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class AgeAvg {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.print(" enter the no of employees=");
+		 int num =sc.nextInt( );
+		 
+		 
+		 System.out.println(" enter the age of employe =");
+		 int number =sc.nextInt();
+		 int[] age =new int[number];	
+		  System.out.print(" age )" + age);
+		 
+
+	}
+
+}

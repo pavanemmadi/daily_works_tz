@@ -1,0 +1,7 @@
+
+public class Emplyee {
+  int empno ;
+  String empname ;
+  float empsal ;
+    
+}

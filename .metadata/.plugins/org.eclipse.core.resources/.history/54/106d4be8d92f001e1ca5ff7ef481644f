@@ -1,0 +1,39 @@
+package assinments;
+
+import java.util.Scanner;
+
+public class Thearter {
+
+	public static void main(String[] args) {
+		int kticket =75;
+		int qticket =150;
+		int refre  =50;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number of ticket:");
+		int t = sc.nextInt();
+		System.out.println(" do you want refreshment; "); 
+		String r =sc.next("");
+		
+		System.out.println("do you have coupon code :");
+		
+		String cc =sc.next("");
+		System.out.println("enter the cirlcle:");
+		String c =sc.next("");
+		
+		{
+		  String  if("c=k") {
+			 int  ticket =kticket*t;
+		 }
+		 else if (c!=k) {
+			 int ticket=( qticket*t);
+	}
+		  total=(ticket + refre*t +);
+		   
+		System.out.print("total price of ticket: " +total);
+		
+
+	}
+
+}
+}

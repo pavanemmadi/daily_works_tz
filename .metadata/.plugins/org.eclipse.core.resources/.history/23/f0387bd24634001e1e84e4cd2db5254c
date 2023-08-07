@@ -1,0 +1,39 @@
+package com.tech.java.array;
+
+import java.util.Scanner;
+
+public class StudentsDetails {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+System.out.println(" enter the students id :" );
+    int id =sc.nextInt();
+    
+    System.out.print("enter the student name:");
+     String name =sc.next();
+     System.out.println(" enter the student address:");
+     String address=sc.next();
+     System.out.println(" whether the student is form nit :");
+     String Nit=sc.next();
+
+    	   
+       
+      
+      
+	System.out.println();
+	System.out.println(" Name :" +name);
+	System.out.println(" Addres :" +address);
+	System.out.println(" collage name:" +id);
+	
+	
+	}
+}
+
+	
+	   
+	   
+     
+	
+
+	
+

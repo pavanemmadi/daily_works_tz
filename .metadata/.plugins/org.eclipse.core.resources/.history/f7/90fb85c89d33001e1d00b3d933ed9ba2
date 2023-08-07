@@ -1,0 +1,11 @@
+
+public class Emplyee {
+  int empno  =40 ;
+  String name ;
+  float sal ; 
+ public static void main (String[]args) {
+	   Emplyee pavan =new Emplyee();
+	     System.out.println(pavan.empno + "|" +pavan.name + "|" +pavan.sal );
+ }
+    
+}

@@ -1,0 +1,13 @@
+package com.techzenture.java.pack2;
+
+import pack.nums;
+
+public class Number {
+	public static void main(String[]args) {
+		System.out.println("pakage example");
+		nums ref =new nums();
+		System.out.println("sum =" +ref.add(x , y));
+		
+	}
+
+}

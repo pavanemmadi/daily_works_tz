@@ -1,0 +1,27 @@
+package assinments;
+
+import java.util.Scanner;
+
+public class NumberWords {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	 System.out.println("enter the number:");
+	  int num = sc.nextInt();
+	   String english[] = {"zero","one","two","three","four","five","six","seven", "eight", "nine"} ;
+	    if (num<10)
+	    { 
+	    	System.out.println(english[num]);
+	    }
+	    else if(num<100)
+	    { int  x =num/10;
+	     int y =num%10;
+	    System.out.println(english[x]+ " " +english[y]);
+	    }
+	   
+	
+
+	}
+
+}

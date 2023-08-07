@@ -1,0 +1,30 @@
+package com.tech.java.arrays;
+
+import java.util.Scanner;
+
+public class MarksClass {
+
+	public static void main(String[] args) {
+	 Scanner sc =new Scanner(System.in);
+	 System.out.print("enter the name :");
+      String name =sc.nextLine();
+      System.out.print("enter number of subject;");
+      int num =sc.nextInt();
+      int[] marks =new int[num];
+   
+     
+		
+		for(int i=0;i<marks.length;i++) {
+			System.out.print(" enter the sub marks " +(i+1) +" +");
+			 marks[i] =sc.nextInt();
+			   
+			 
+			 System.out.println(" students name;" +name);
+			 System.out.print("subject-" +(i+1) +"   = " +marks);
+			
+		}
+		
+		
+	}
+
+}

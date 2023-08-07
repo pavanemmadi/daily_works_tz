@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class MovieBill {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(system.in);
+		System.out.println("how many number of pizza:");
+		int pizza = sc.next in();
+
+	}
+
+}

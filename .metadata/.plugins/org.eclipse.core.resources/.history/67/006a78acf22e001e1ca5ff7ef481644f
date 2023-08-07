@@ -1,0 +1,10 @@
+package assinments;
+
+public class NumberWords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

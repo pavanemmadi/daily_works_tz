@@ -1,0 +1,24 @@
+
+
+import java.util.Arrays;
+
+
+ 
+
+@RunWith(Parameterized.class)
+public class PalindromeTest {
+
+ 
+
+    private final String input;
+    private final boolean expectedOutput;
+
+ 
+
+    public PalindromeTest(String input, boolean expectedOutput) {
+        this.input = input;
+        this.expectedOutput = expectedOutput;
+   
+}
+}
+}

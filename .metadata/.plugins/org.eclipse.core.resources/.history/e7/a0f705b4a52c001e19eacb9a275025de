@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class MovieBill {
+
+	public static <scanner> void main(String[] args) {
+	 Scanner scn = new Scanner(system.in);
+	 
+	 System.out.println("how many")
+
+	}
+}
